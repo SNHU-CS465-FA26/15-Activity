@@ -21,24 +21,22 @@ The courses are listed in the associated department files (e.g., `math.md`) whic
 For example, in the English department you might offer:
 
 ---
-
 **ENGL007** _Poetry of Ian Fleming_
-
 > Study of verse from the spy master.
 
 **ENGL042** _Don't Panic Yet!_
-
 > Societal commentaries of Douglas Adams.
 
 ---
 
 Using Markdown, you can produce this layout using the following:
 
-```markdown
+```text
 ---
 
 **ENGL007** _Poetry of Ian Fleming_
-> Study of verse from the spy master.  
+> Study of verse from the spy master.
+
 **ENGL042** _Don't Panic Yet!_
 > Social commentaries of Douglas Adams. 
 
@@ -57,9 +55,9 @@ You are provided a primary markdown file, [`catalog.md`](./catalog.md), to which
 
 1. **One** team member is chosen as the "Project Lead" who then accepts the [activity assignment](https://classroom.github.com/a/oM0TW613) from GitHub Classroom as usual.  
 
-    a. Download the activity repository from BrightSpace
+    a. clone the activity repository using the link on BrightSpace
     b. make sure the new repo is private.  
-    c. set GitHub to [protect the main branch](https://github.com/CS50DartmouthFA24/home/blob/main/knowledge/units/protect-main.md).  
+    c. set GitHub to [protect the main branch](https://learn.snhu.edu/d2l/le/content/2366228/viewContent/54950648/View).  
     d. invite other team members to join the repo, each having the  `maintain` role:  
 
     ```  
@@ -69,17 +67,18 @@ You are provided a primary markdown file, [`catalog.md`](./catalog.md), to which
 2. Team decides which member will handle which department. If you don't have enough people to handle the five subjects, either double-up or just omit subjects (if omitting one be sure to update `catalog.md`). 
 
 3. Each team member does the following:
-	- Accept the invitation from the Project Leader and clone the repository.
-	- `cd` into the cloned repo.
-	- Create a local feature branch for your work, with a name indicating the department you are handling, e.g., `math-department`.  
-	- Switch to that new feature branch.
-	- Add at least 4 classes to the corresponding `.md` file (e.g., `math.md`).
-	- Edit the `catalog.md` file to add your username in the department chair slot of the department you selected.
-	- Push your branch to GitHub.
-		`git push -u origin branch-name`
-	- Preview your branch on GitHub. Is content correct? Does the formatting meet the requirements? Are any words spelled incorrectly?
-	- If everything is correct, open a Pull Request for your branch.  
-	
+  - Accept the invitation from the Project Leader and clone the repository.
+  - `cd` into the cloned repo.
+  - Create a local feature branch for your work, with a name indicating the department you are handling, e.g., `math-department`.  
+  - Switch to that new feature branch.
+  - Add at least 4 classes to the corresponding `.md` file (e.g., `math.md`).
+  - Edit the `catalog.md` file to add your username in the department chair slot of the department you selected.
+  - Push your branch to GitHub.
+
+  	`git push -u origin branch-name`
+  - Preview your branch on GitHub. Is content correct? Does the formatting meet the requirements? Are any words spelled incorrectly?
+  - If everything is correct, open a Pull Request for your branch.  
+
 4. Respond to Pull Requests (everyone).
     - When you see a Pull Request from a team member, review their
         branch on GitHub.
@@ -97,6 +96,16 @@ You are provided a primary markdown file, [`catalog.md`](./catalog.md), to which
         2. Merge your feature branch into main on your machine. Fix any conflicts, and if you repair any conflicts you need to commit again afterwards.
         3. Push your (merged) main to GitHub. This time it should succeed. If you made any changes to your feature branch, push those, too.
 
-***Create a markdown file containing the URL of your github repository used for othis activity. Then upload that file to Canvas for Activity 23.***
+
+
+## FINAL STEP
+
+The project lead:
+1. ensures that the team repository is fully up to date on GitHub, then
+2. the project lead invites the instructor (GitHub username `ccpalmer`) to join the repository.
+
+<div style="color:green;font-size:20;text-align:center;"><i>Go Green Goblins!</i></div>
+
 ---
+
 [^1]: _Based on the excellent example assignment at `https://github.com/ISP21/ku-cafe`._
